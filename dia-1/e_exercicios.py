@@ -5,7 +5,7 @@ str = "bbbbaaaacccaaaaaaddddddddccccccc"
 dictstr = {}
 
 for item in str:
-    if (item in dictstr):
+    if item in dictstr:
         dictstr[item] += 1
     else:
         dictstr[item] = 1
